@@ -60,7 +60,7 @@ func menu()
     ExitProg().exit()
     }
     else {
-    print("Вы ошиблись, повоторите ввод")
+    print("Вы ошиблись, повторите ввод")
     menu()
     }
     }
