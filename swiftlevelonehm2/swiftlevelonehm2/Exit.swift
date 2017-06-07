@@ -7,3 +7,8 @@
 //
 
 import Foundation
+class ExitProg {
+    func exit(){
+     print("До встречи!")
+    }
+}
