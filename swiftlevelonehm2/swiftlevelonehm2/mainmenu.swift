@@ -53,16 +53,17 @@ func mainmenu () {
 func menu()
 {
     let m = Character(readLine()!)
-    if (m=="M" || m == "m"){
+    switch(m) {
+    case ("m"):
     mainmenu()
-    }
-    if (m == "q" || m == "Q"){
+    case ("q"):
     ExitProg().exit()
-    }
-    else {
+    
+    default:
     print("Вы ошиблись, повторите ввод")
     menu()
     }
     }
+    
 
 }

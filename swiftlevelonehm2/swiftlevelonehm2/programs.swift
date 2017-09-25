@@ -38,7 +38,7 @@ class Prog {
     }
     func array100()->Array<Any>{
     var arr = [Int]()
-    arr += 1...100
+    arr += 0...99
         return(arr)
     }
     func array100del3()->Array<Any>{
